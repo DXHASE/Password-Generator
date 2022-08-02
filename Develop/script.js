@@ -47,16 +47,9 @@ function generatePassword(){
     characterSet = characterSet.concat(numberCharacters);
     console.log(characterSet);
   }
+
   // Make sure that the values meet the criteria
-var randomPassword="";
-  for(var i = 0;i < parseLength; i++){
-    var randomNumber= Math.floor(Math.random() * characterSet.length);
-    var randomCharacter=characterSet[randomNumber];
-    randomPassword += randomCharacter;
-  }
-  console.log(randomPassword);
-  // display the generated password on the page
-  return randomPassword;
+
 }
 
 // Write password to the #password input
