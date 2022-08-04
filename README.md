@@ -1,5 +1,4 @@
-# Password Generator Starter Code
-# Project-Portfolio
+# Password Generator
 
 ## Purpose
 A website that can generate a random password whenever the button is clicked on screen.
