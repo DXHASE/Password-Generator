@@ -30,21 +30,33 @@ function generatePassword(){
   if(promptUppercase){
     characterSet = characterSet.concat(upperCase);
     console.log(characterSet);
+  }else{
+    var promptCancellation= window.confirm("No uppercase letters chosen.");
+    console.log(characterSet);
   }
   var promptLowercase= window.confirm("Would you like to include lowercase letters?");
   if(promptLowercase){
     characterSet = characterSet.concat(lowerCase);
+    console.log(characterSet);
+  }else{
+    var promptCancellation= window.confirm("No lowercase letters chosen.");
     console.log(characterSet);
   }
   var promptSpecial=window.confirm("Would you like to include special characters?");
   if(promptSpecial){
     characterSet = characterSet.concat(specialCharacters);
     console.log(characterSet);
+  }else{
+    var promptCancellation= window.confirm("No special characters chosen.");
+    console.log(characterSet);
   }
 
   var promptNumber= window.confirm("Would you like to include numbers?");
   if(promptNumber){
     characterSet = characterSet.concat(numberCharacters);
+    console.log(characterSet);
+  }else{
+    var promptCancellation= window.confirm("No numbers included.");
     console.log(characterSet);
   }
 
