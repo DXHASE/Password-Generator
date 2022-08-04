@@ -15,3 +15,5 @@ A website that can generate a random password whenever the button is clicked on 
 ## Creator
 Daniel Chase 
 July 2022
+
+![Image of Portfolio](./Develop/Password-Generator.png)
